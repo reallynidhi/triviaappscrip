@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43F2FF0271D38ED00F693E2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F2FEF271D38ED00F693E2 /* HistoryViewController.swift */; };
+		C43F2FF4271D39A300F693E2 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F2FF3271D39A300F693E2 /* HistoryTableViewCell.swift */; };
 		C4F6B312271C58D4008D3DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6B311271C58D4008D3DDF /* AppDelegate.swift */; };
 		C4F6B314271C58D4008D3DDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6B313271C58D4008D3DDF /* SceneDelegate.swift */; };
 		C4F6B316271C58D4008D3DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6B315271C58D4008D3DDF /* ViewController.swift */; };
@@ -14,9 +16,14 @@
 		C4F6B31C271C58D4008D3DDF /* Trivia_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4F6B31A271C58D4008D3DDF /* Trivia_App.xcdatamodeld */; };
 		C4F6B31E271C58D7008D3DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F6B31D271C58D7008D3DDF /* Assets.xcassets */; };
 		C4F6B321271C58D7008D3DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F6B31F271C58D7008D3DDF /* LaunchScreen.storyboard */; };
+		C4F6B32A271C6E55008D3DDF /* CricketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6B329271C6E55008D3DDF /* CricketViewController.swift */; };
+		C4F6B32D271C6E71008D3DDF /* FlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6B32C271C6E71008D3DDF /* FlagViewController.swift */; };
+		C4F6B330271C6E89008D3DDF /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6B32F271C6E89008D3DDF /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C43F2FEF271D38ED00F693E2 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		C43F2FF3271D39A300F693E2 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		C4F6B30E271C58D4008D3DDF /* Trivia App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6B311271C58D4008D3DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F6B313271C58D4008D3DDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		C4F6B31D271C58D7008D3DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4F6B320271C58D7008D3DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4F6B322271C58D7008D3DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F6B329271C6E55008D3DDF /* CricketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketViewController.swift; sourceTree = "<group>"; };
+		C4F6B32C271C6E71008D3DDF /* FlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewController.swift; sourceTree = "<group>"; };
+		C4F6B32F271C6E89008D3DDF /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +71,16 @@
 				C4F6B311271C58D4008D3DDF /* AppDelegate.swift */,
 				C4F6B313271C58D4008D3DDF /* SceneDelegate.swift */,
 				C4F6B315271C58D4008D3DDF /* ViewController.swift */,
+				C4F6B329271C6E55008D3DDF /* CricketViewController.swift */,
+				C4F6B32C271C6E71008D3DDF /* FlagViewController.swift */,
+				C4F6B32F271C6E89008D3DDF /* SummaryViewController.swift */,
+				C43F2FEF271D38ED00F693E2 /* HistoryViewController.swift */,
 				C4F6B317271C58D4008D3DDF /* Main.storyboard */,
 				C4F6B31D271C58D7008D3DDF /* Assets.xcassets */,
 				C4F6B31F271C58D7008D3DDF /* LaunchScreen.storyboard */,
 				C4F6B322271C58D7008D3DDF /* Info.plist */,
 				C4F6B31A271C58D4008D3DDF /* Trivia_App.xcdatamodeld */,
+				C43F2FF3271D39A300F693E2 /* HistoryTableViewCell.swift */,
 			);
 			path = "Trivia App";
 			sourceTree = "<group>";
@@ -140,10 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43F2FF4271D39A300F693E2 /* HistoryTableViewCell.swift in Sources */,
 				C4F6B316271C58D4008D3DDF /* ViewController.swift in Sources */,
+				C4F6B32A271C6E55008D3DDF /* CricketViewController.swift in Sources */,
 				C4F6B312271C58D4008D3DDF /* AppDelegate.swift in Sources */,
 				C4F6B31C271C58D4008D3DDF /* Trivia_App.xcdatamodeld in Sources */,
+				C4F6B32D271C6E71008D3DDF /* FlagViewController.swift in Sources */,
+				C4F6B330271C6E89008D3DDF /* SummaryViewController.swift in Sources */,
 				C4F6B314271C58D4008D3DDF /* SceneDelegate.swift in Sources */,
+				C43F2FF0271D38ED00F693E2 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
